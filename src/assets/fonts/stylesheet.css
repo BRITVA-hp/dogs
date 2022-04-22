@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Uni Neue Book';
+    src: url('UniNeueBook.eot');
+    src: local('Uni Neue Book'), local('UniNeueBook'),
+        url('UniNeueBook.eot?#iefix') format('embedded-opentype'),
+        url('UniNeueBook.woff2') format('woff2'),
+        url('UniNeueBook.woff') format('woff'),
+        url('UniNeueBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uni Neue';
+    src: url('UniNeueRegular.eot');
+    src: local('Uni Neue Regular'), local('UniNeueRegular'),
+        url('UniNeueRegular.eot?#iefix') format('embedded-opentype'),
+        url('UniNeueRegular.woff2') format('woff2'),
+        url('UniNeueRegular.woff') format('woff'),
+        url('UniNeueRegular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

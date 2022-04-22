@@ -1,0 +1,447 @@
+/* base */
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 130%;
+    font-family: "Uni Neue";
+    font-weight: normal;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #1c1c1c;
+}
+
+a,
+a:hover {
+    cursor: pointer !important;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+input,
+button {
+    font-family: "Uni Neue Book";
+    font-weight: normal;
+    font-style: normal;
+    border: none;
+    outline: none;
+    cursor: pointer !important;
+}
+
+input:hover,
+button:hover {
+    cursor: pointer !important;
+    border: 0;
+    outline: none;
+}
+
+input:focus,
+button:focus {
+    cursor: pointer !important;
+    box-shadow: none !important;
+    border: none;
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1600px;
+    padding: 0 10px;
+}
+
+@media (max-width: 1600px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 991px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 767px;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        padding: 0 10px;
+    }
+}
+
+/* base */
+
+/* header */
+.select.is-active .select__body {
+    display: none;
+}
+
+.select__header {
+    display: flex;
+    cursor: pointer;
+    background: rgba(229, 229, 229, 0.1);
+    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+    width: 150px;
+    margin: 0 0 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.select__current {
+    padding: 12px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    margin: 0 4px;
+    font-family: "Uni Neue Book";
+}
+
+.select__body {
+    position: absolute;
+    left: 0;
+    transform: translateX(5px);
+    display: block;
+}
+
+.select__item {
+    text-align: center;
+    margin: 0 auto 7px;
+    padding: 7px 0;
+    width: 145px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    background: rgba(229, 229, 229, 0.1);
+    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+    font-family: "Uni Neue Book";
+}
+
+.select__item:last-child {
+    margin-bottom: 0;
+}
+
+.select__item:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.header {
+    background-image: url(../img/1-header/h-fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 70px;
+}
+
+.header-block {
+    padding-bottom: 80px;
+}
+
+.header-description {
+    font-family: "Uni Neue Book";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 74px;
+    color: #ffffff;
+    max-width: 710px;
+    margin-top: 216px;
+}
+
+/* header */
+
+/* auto-scroll */
+.slider {
+    overflow: hidden;
+}
+
+.swiper-slide {
+    width: auto;
+    margin-right: 10px !important;
+}
+
+.slider__item {
+    padding: 20px 10px;
+    text-align: center;
+    background: #262A35;
+    border-radius: 10px;
+    max-width: 225px !important;
+    min-width: 70px !important;
+}
+
+.swiper-wrapper {
+    transition-timing-function: linear;
+}
+
+/* auto-scroll */
+
+/* bull-terrier */
+.bull-terrier {
+    margin: 175px 0 160px;
+}
+
+.desk-general {
+    background: rgba(229, 229, 229, 0.1);
+    box-shadow: inset 4px 0px 0px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.15),
+        inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 1055px;
+    padding: 95px 0;
+}
+
+.desk-general-text {
+    font-family: "Uni Neue";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    color: #ffffff;
+    max-width: 900px;
+}
+
+.paw-l {
+    left: -6px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.paw-r {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.paw-block {
+    background-image: url(../img/3-bull-terrier/bull-terrier-fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 90px;
+}
+
+.paw-text {
+    font-family: "Uni Neue";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    color: #ffffff;
+    max-width: 1055px;
+}
+
+/* bull-terrier */
+
+/* bagel */
+.bagel-title {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 67px;
+    color: #ffffff;
+    margin-bottom: 105px;
+}
+
+.bagel {
+    margin-bottom: 230px;
+}
+
+.bagel-description-text {
+    font-family: "Uni Neue";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    color: #ffffff;
+    max-width: 870px;
+}
+
+.bagel-description {
+    background: rgba(229, 229, 229, 0.1);
+    box-shadow: inset 4px 0px 0px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.15),
+        inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+    padding: 65px 50px 65px 0;
+    width: 100%;
+    max-width: 1510px;
+    margin-bottom: 135px;
+}
+
+.bagel-description img {
+    left: -82px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn-paw {
+    font-family: "Uni Neue";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 41px;
+    color: #ffffff;
+    padding: 15px 0;
+    width: 100%;
+    max-width: 312px;
+    background: rgba(229, 229, 229, 0.1);
+    box-shadow: inset 4px 0px 0px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.15),
+        inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+    position: relative;
+}
+
+.btn-paw::before {
+    position: absolute;
+    right: -80px;
+    top: -10px;
+    content: "";
+    display: table;
+    width: 86px;
+    height: 75px;
+    background-image: url(../img/4-bagel/bagel-decor-btn.png);
+}
+
+/* bagel */
+
+/* collection */
+.collection {
+    padding-bottom: 160px;
+}
+
+.collection-img {
+    margin-bottom: 160px;
+}
+
+.collection-text {
+    font-family: "Uni Neue Book";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    color: #ffffff;
+    max-width: 855px;
+}
+
+.collection-info {
+    margin-bottom: 234px;
+}
+
+/* collection */
+
+/* modal */
+.modal-content {
+    background: #1c1c1c;
+    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+    padding: 105px 70px 60px;
+}
+
+.modal-header {
+    border-bottom: none !important;
+    background: rgba(229, 229, 229, 0.1);
+    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+    padding: 0 !important;
+}
+
+.modal-dialog {
+    max-width: 1470px;
+}
+
+.btn-close {
+    background-image: url(../img/6-modal/close.png);
+    background-size: 53px;
+    width: 53px;
+    height: 53px;
+    padding: 0 !important;
+    margin-right: 80px !important;
+    margin-top: 35px !important;
+}
+
+.modal-img-block {
+    margin-bottom: 75px;
+}
+
+.modal-description {
+    max-width: 1035px;
+    font-family: "Uni Neue";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 41px;
+    color: #ffffff;
+}
+
+.modal-description-block {
+    padding: 0 140px 100px;
+}
+
+/* modal */

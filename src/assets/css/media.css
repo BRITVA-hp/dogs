@@ -1,0 +1,713 @@
+@media (max-width: 1600px) {
+
+    /* header */
+    .header {
+        background-size: 1440px auto;
+    }
+
+    .header-description {
+        font-size: 40px;
+        line-height: 60px;
+        max-width: 525px;
+        margin-top: 190px;
+    }
+
+    .set-pic {
+        max-width: 750px;
+    }
+
+    /* header */
+    /* bull-terrier */
+    .desk-general {
+        max-width: 875px;
+    }
+
+    .paw-l {
+        left: 0;
+    }
+
+    .paw-block {
+        background-size: 1440px auto;
+    }
+
+    .paw-block-text img {
+        max-width: 340px;
+    }
+
+    /* bull-terrier */
+    /* bagel */
+    .bagel-description img {
+        max-width: 500px;
+    }
+
+    .bagel-description {
+        padding: 55px 50px 55px 0;
+        max-width: 1299px;
+    }
+
+    .bagel-description-text {
+        font-size: 32px;
+        line-height: 44px;
+        max-width: 790px;
+    }
+
+    /* bagel */
+}
+
+@media (max-width: 1440px) {
+
+    /* header */
+    .header {
+        background-size: 1200px auto;
+    }
+
+    .header-description {
+        font-size: 37px;
+        line-height: 50px;
+        max-width: 465px;
+        margin-top: 145px;
+    }
+
+    .set-pic {
+        max-width: 635px;
+    }
+
+    /* header */
+    /* bull-terrier */
+    .paw-l {
+        width: 180px;
+    }
+
+    .paw-r {
+        width: 180px;
+    }
+
+    .desk-general {
+        max-width: 796px;
+        padding: 75px 0;
+    }
+
+    .desk-general-text {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .paw-block {
+        background-size: 1200px auto;
+    }
+
+    .paw-block-text img {
+        max-width: 300px;
+    }
+
+    .paw-text {
+        font-size: 23px;
+        line-height: 125%;
+        max-width: 790px;
+    }
+
+    /* bull-terrier */
+    /* bagel */
+    .bagel-description img {
+        max-width: 440px;
+    }
+
+    .bagel-description {
+        padding: 45px 35px 40px 0;
+        max-width: 1100px;
+        margin-bottom: 80px;
+    }
+
+    .bagel-description-text {
+        font-size: 28px;
+        line-height: 36px;
+        max-width: 690px;
+    }
+
+    /* bagel */
+    /* modal */
+    .modal-img-elements {
+        max-width: 300px;
+    }
+
+    .modal-general-img {
+        max-width: 330px;
+    }
+
+    .modal-description-block {
+        padding: 0 65px 100px;
+    }
+
+    /* modal */
+}
+
+@media (max-width: 1200px) {
+
+    /* header */
+    .bull-terrier {
+        margin: 100px 0;
+    }
+
+    .header {
+        background-size: 991px auto;
+    }
+
+    .header-description {
+        margin-top: 90px;
+    }
+
+    .set-pic {
+        max-width: 500px;
+    }
+
+    /* header */
+    /* bull-terrier */
+    .paw-l {
+        width: 160px;
+    }
+
+    .paw-r {
+        width: 160px;
+    }
+
+    .desk-general {
+        max-width: 650px;
+        padding: 60px 0;
+    }
+
+    .desk-general-text {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .paw-block {
+        background-size: 991px auto;
+        margin-top: 60px;
+    }
+
+    .paw-block-text img {
+        max-width: 280px;
+    }
+
+    .paw-text {
+        font-size: 20px;
+        max-width: 650px;
+    }
+
+    /* bull-terrier */
+    /* bagel */
+    .bagel {
+        margin-bottom: 180px;
+    }
+
+    .bagel-description img {
+        max-width: 350px;
+    }
+
+    .bagel-description-text {
+        font-size: 24px;
+        line-height: 29px;
+        max-width: 566px;
+    }
+
+    .bagel-description {
+        padding: 30px 25px 30px 0;
+        max-width: 890px;
+        margin-bottom: 50px;
+    }
+
+    .btn-paw {
+        font-size: 25px;
+        line-height: 30px;
+        padding: 10px 20px;
+    }
+
+    .btn-paw::before {
+        right: -55px;
+        top: -5px;
+        width: 60px;
+        height: 60px;
+        background-size: 70px;
+    }
+
+    /* bagel */
+    /* collection */
+    .collection {
+        padding-bottom: 100px;
+    }
+
+    .collection-img {
+        margin-bottom: 100px;
+    }
+
+    .collection-info {
+        margin-bottom: 180px;
+    }
+
+    /* collection */
+
+    /* modal */
+    .modal-description {
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    .modal-img-elements {
+        max-width: 250px;
+    }
+
+    .modal-general-img {
+        max-width: 280px;
+    }
+
+    /* modal */
+}
+
+@media (max-width: 991px) {
+
+    /* header */
+    .header-block {
+        padding-bottom: 45px;
+    }
+
+    .header {
+        background-size: 767px auto;
+        margin-bottom: 45px;
+    }
+
+    .header-description {
+        font-size: 27px;
+        line-height: 35px;
+        max-width: 336px;
+        margin-top: 145px;
+    }
+
+    .set-pic {
+        max-width: 380px;
+    }
+
+    .select__header {
+        border-radius: 10px;
+        width: 77px;
+        margin: 0 0 7px;
+    }
+
+    .select__current {
+        padding: 6px 0;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 0 4px;
+    }
+
+    .sphere {
+        width: 12px;
+    }
+
+    .traingle {
+        width: 11px;
+    }
+
+    .select__body {
+        transform: translateX(10px);
+    }
+
+    .select__item {
+        margin: 0 auto 5px;
+        padding: 2px 0;
+        width: 60px;
+        font-size: 14px;
+        line-height: 15px;
+        background: rgba(229, 229, 229, 0.1);
+        box-shadow: inset 0px 4px 4px rgb(255 255 255 / 15%), inset 0px 0px 60px rgb(255 255 255 / 5%);
+        backdrop-filter: blur(60px);
+        border-radius: 10px;
+    }
+
+    /* header */
+    /* bull-terrier */
+    .bull-terrier {
+        margin: 80px 0;
+    }
+
+    .paw-l {
+        width: 140px;
+    }
+
+    .paw-r {
+        width: 135px;
+    }
+
+    .desk-general {
+        max-width: 464px;
+        padding: 50px 0;
+    }
+
+    .desk-general-text {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .paw-block {
+        margin-top: 40px;
+        background-size: 767px auto;
+    }
+
+    .paw-block-text img {
+        max-width: 200px;
+    }
+
+    .paw-text {
+        font-size: 16px;
+        max-width: 475px;
+    }
+
+    /* bull-terrier */
+    /* bagel */
+    .bagel {
+        margin-bottom: 150px;
+    }
+
+    .bagel-title {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 70px;
+    }
+
+    .bagel-description img {
+        max-width: 350px;
+    }
+
+    .bagel-description {
+        padding: 20px 10px 20px 0;
+        max-width: 655px;
+    }
+
+    .bagel-description-text {
+        font-size: 20px;
+        line-height: 24px;
+        max-width: 364px;
+    }
+
+    /* bagel */
+    /* collection */
+    .collection {
+        padding-bottom: 70px;
+    }
+
+    .collection-img {
+        margin-bottom: 70px;
+    }
+
+    .collection-info {
+        margin-bottom: 130px;
+    }
+
+    /* collection */
+    /* modal */
+    .modal-dialog {
+        max-width: 767px;
+    }
+
+    .modal-content {
+        padding: 20px 12px;
+    }
+
+    .modal-general-img {
+        max-width: 230px;
+    }
+
+    .btn-close {
+        background-size: 35px;
+        width: 35px;
+        height: 35px;
+        margin-right: 15px !important;
+        margin-top: 15px !important;
+    }
+
+    .modal-img-block {
+        margin-bottom: 20px;
+    }
+
+    .modal-description {
+        font-size: 21px;
+        line-height: 27px;
+    }
+
+    .modal-description-block {
+        padding: 0 7px 30px;
+    }
+
+    /* modal */
+}
+
+@media (max-width: 767px) {
+
+    /* header */
+    .header {
+        background-size: 100%;
+    }
+
+    .header-description {
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 340px;
+        margin-top: 100px;
+    }
+
+    .set-pic {
+        max-width: 293px;
+    }
+
+    /* header */
+
+    /* auto-scroll */
+    .slider__item {
+        padding: 7px 3px;
+    }
+
+    /* auto-scroll */
+
+    /* bull-terrier */
+    .bull-terrier {
+        margin: 50px 0;
+    }
+
+    .paw-l {
+        width: 130px;
+    }
+
+    .desk-general {
+        max-width: 300px;
+        padding: 34px 0;
+        background: rgba(229, 229, 229, 0.1);
+        box-shadow: inset 1px 0px 0px 1px rgb(0 0 0 / 25%), inset 0px 4px 4px rgb(255 255 255 / 15%),
+            inset 0px 0px 60px rgb(255 255 255 / 5%);
+        backdrop-filter: blur(60px);
+    }
+
+    .desk-general-text {
+        max-width: 280px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .paw-block {
+        background-size: 100%;
+    }
+
+    .paw-block-text img {
+        max-width: 180px;
+    }
+
+    .paw-text {
+        font-size: 13px;
+        max-width: 350px;
+    }
+
+    /* bull-terrier */
+    /* bagel */
+    .bagel {
+        margin-bottom: 100px;
+    }
+
+    .bagel-title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 60px;
+    }
+
+    .bagel-description-text {
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 364px;
+    }
+
+    .bagel-description {
+        padding: 18px 14px;
+        background: rgba(229, 229, 229, 0.1);
+        box-shadow: inset 1px 0px 0px 1px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.15),
+            inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(60px);
+        max-width: 520px;
+        margin-bottom: 20px;
+    }
+
+    .btn-paw {
+        background: rgba(229, 229, 229, 0.1);
+        box-shadow: inset 1px 0px 0px 1px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.15),
+            inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(60px);
+        font-size: 15px;
+        line-height: 20px;
+        padding: 14px 0;
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .btn-paw::before {
+        right: 10px;
+        top: 8px;
+        width: 35px;
+        height: 35px;
+        background-size: 38px;
+        background-repeat: no-repeat;
+    }
+
+    .btn-paw::after {
+        background-image: url(../img/4-bagel/bagel-decor-btn.png);
+        position: absolute;
+        content: "";
+        display: table;
+        left: 10px;
+        top: 8px;
+        width: 35px;
+        height: 35px;
+        background-size: 38px;
+        background-repeat: no-repeat;
+    }
+
+    /* bagel */
+    /* collection */
+    .collection {
+        padding-bottom: 40px;
+    }
+
+    .collection-img {
+        margin-bottom: 50px;
+    }
+
+    .collection-text {
+        font-size: 15px;
+        line-height: 20px;
+        max-width: 450px;
+    }
+
+    .collection-info {
+        margin-bottom: 50px;
+    }
+
+    /* collection */
+    /* modal */
+    .modal-dialog {
+        max-width: 575px;
+    }
+
+    .modal-general-img {
+        max-width: 160px;
+    }
+
+    .modal-description {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .btn-close {
+        background-size: 23px;
+        width: 23px;
+        height: 23px;
+        margin-right: 15px !important;
+        margin-top: 15px !important;
+    }
+
+    /* modal */
+}
+
+@media (max-width: 575px) {
+
+    /* header */
+    .header {
+        margin-bottom: 40px;
+    }
+
+    .header-block {
+        padding-bottom: 0;
+    }
+
+    .header-description {
+        font-size: 22px;
+        max-width: 280px;
+        margin-top: 15px;
+    }
+
+    .select-container {
+        top: -355px;
+        right: 0;
+        position: absolute;
+    }
+
+    .header-information {
+        position: relative;
+    }
+
+    /* header */
+    /* bull-terrier */
+    .paw-block {
+        margin-top: 15px;
+    }
+
+    .bull-terrier .container {
+        padding: 0;
+    }
+
+    .desk-general {
+        margin: 0 10px;
+        max-width: 390px;
+    }
+
+    .paw-text {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 130%;
+        padding: 0 10px;
+    }
+
+    /* bull-terrier */
+    /* bagel */
+    .bagel .container {
+        padding: 0;
+    }
+
+    .bagel {
+        margin-bottom: 50px;
+    }
+
+    .bagel-title {
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 20px;
+    }
+
+    .bagel-description {
+        max-width: 300px;
+    }
+
+    .paw-text-click {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* bagel */
+}
+
+@media (max-width: 375px) {
+
+    /* header */
+    .header {
+        background-image: url(../img/1-header/h-fon-mob.png);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    /* header */
+    /* bull-terrier */
+    .paw-block {
+        background-image: url(../img/3-bull-terrier/bull-terrier-fon-mob.png);
+        background-size: 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    /* bull-terrier */
+}
