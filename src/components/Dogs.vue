@@ -25,7 +25,7 @@
         </div>
 
         <picture class="set-pic">
-          <source srcset="img/1-header/set-pic-mob.png" media="(max-width: 575px)">
+          <source srcset="../assets/img/1-header/set-pic-mob.png" media="(max-width: 575px)">
           <img src="../assets/img/1-header/set-pic.png" alt="modal-sent-img">
         </picture>
         <!-- <img class="set-pic" src="../assets/img/1-header/set-pic.png" alt=""> -->
@@ -108,12 +108,12 @@
   <section class="bull-terrier">
     <div class="container">
       <div class="desk-info position-relative d-flex justify-content-center align-items-center">
-        <img class="paw-l d-none d-sm-block position-absolute" src="img/3-bull-terrier/paw-left-block.png"
+        <img class="paw-l d-none d-sm-block position-absolute" src="../assets/img/3-bull-terrier/paw-left-block.png"
              alt="">
         <div class="desk-general d-flex justify-content-center align-items-center">
           <p v-html="data.bullTerrier.title" class="desk-general-text text-center"></p>
         </div>
-        <img class="paw-r d-none d-sm-block position-absolute" src="img/3-bull-terrier/paw-right-block.png"
+        <img class="paw-r d-none d-sm-block position-absolute" src="../assets/img/3-bull-terrier/paw-right-block.png"
              alt="">
       </div>
 
@@ -168,12 +168,12 @@
     <div class="container">
 
       <div class="collection-info position-relative d-flex justify-content-center align-items-center">
-        <img class="paw-l d-none d-sm-block position-absolute" src="img/3-bull-terrier/paw-left-block.png"
+        <img class="paw-l d-none d-sm-block position-absolute" src="../assets/img/3-bull-terrier/paw-left-block.png"
              alt="">
         <div class="desk-general d-flex justify-content-center align-items-center">
           <p v-html="data.collection.title" class="desk-general-text text-center"></p>
         </div>
-        <img class="paw-r d-none d-sm-block position-absolute" src="img/3-bull-terrier/paw-right-block.png"
+        <img class="paw-r d-none d-sm-block position-absolute" src="../assets/img/3-bull-terrier/paw-right-block.png"
              alt="">
       </div>
 
@@ -234,8 +234,6 @@ export default {
   },
   created() {
     this.data = json.eng
-
-    console.log(this.data)
   },
 }
 </script>
