@@ -16,7 +16,7 @@ body {
     font-size: 15px;
     line-height: 130%;
     font-family: "Uni Neue";
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     color: #ffffff;
     background-color: #1c1c1c;
@@ -84,7 +84,7 @@ button:focus {
     width: 100%;
     margin: 0 auto;
     max-width: 1600px;
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 @media (max-width: 1600px) {
@@ -120,13 +120,110 @@ button:focus {
 
 @media (max-width: 575px) {
     .container {
-        padding: 0 10px;
+        padding: 0 20px;
+    }
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 81px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        line-height: 65px;
+    }
+}
+
+@media (max-width: 991px) {
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 42px;
+        line-height: 57px;
+    }
+}
+
+@media (max-width: 767px) {
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+
+@media (max-width: 575px) {
+    .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 35px;
     }
 }
 
 /* base */
 
 /* header */
+.nav-list {
+    display: flex;
+}
+
+.wrapper-list__active {
+    display: block !important;
+    right: -15px !important;
+    top: 0 !important;
+}
+
+.closed {
+    margin-bottom: 40px;
+}
+
+.list-element a {
+    font-family: 'Uni Neue Book';
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.list-element a::before {
+    position: absolute;
+    content: '';
+    display: table;
+    left: 0;
+    bottom: -3px;
+    height: 1px;
+    width: 0;
+    background-color: #ffffff;
+    transition: .3s;
+}
+
+.list-element a:hover::before {
+    width: 100%;
+    transition: .3s;
+}
+
+.list-element a:hover {
+    font-family: 'Uni Neue';
+    font-weight: 500;
+}
+
+.list-element {
+    margin-right: 20px;
+}
+
+.list-element:last-child {
+    margin-right: 0;
+}
+
 .select.is-active .select__body {
     display: none;
 }
@@ -139,7 +236,6 @@ button:focus {
     backdrop-filter: blur(60px);
     border-radius: 20px;
     width: 150px;
-    margin: 0 0 7px;
     align-items: center;
     justify-content: center;
 }
@@ -157,6 +253,7 @@ button:focus {
 
 .select__body {
     position: absolute;
+    z-index: 2;
     left: 0;
     transform: translateX(5px);
     display: block;
@@ -189,29 +286,156 @@ button:focus {
     color: black;
 }
 
+/* .title-block {
+    margin-top: 60px;
+} */
+
+.header-title {
+    font-family: 'Uni Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 85px;
+    line-height: 115px;
+    text-shadow: 0px 0px 3.5px #FFFFFF;
+}
+
 .header {
     background-image: url(../img/1-header/h-fon.png);
     background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 70px;
+    background-position: top;
+    background-size: cover;
+    margin-bottom: 190px;
 }
 
 .header-block {
-    padding-bottom: 80px;
+    padding-bottom: 20px;
+    margin-top: 95px;
 }
 
 .header-description {
     font-family: "Uni Neue Book";
     font-style: normal;
-    font-weight: 400;
-    font-size: 55px;
-    line-height: 74px;
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 88px;
     color: #ffffff;
-    max-width: 710px;
-    margin-top: 216px;
+    margin-top: 55px;
+    margin-bottom: 7px;
+}
+
+.header-description__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 26px;
+    max-width: 880px;
+    margin-bottom: 60px;
+    font-family: 'Uni Neue Book';
+}
+
+/* .header-timer {
+    margin-bottom: 42px;
+} */
+
+.timer-number {
+    background: rgba(229, 229, 229, 0.1);
+    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    backdrop-filter: blur(60px);
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 81px;
+    height: 80px;
+    width: 115px;
+}
+
+.timer-text {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Uni Neue Book';
+}
+
+.timer-element__text {
+    font-family: 'Uni Neue Book';
+}
+
+.link-social {
+    padding: 24px 24px 24px 0;
+    width: 100%;
+    max-width: 350px;
+    display: block;
+    background: rgba(229, 229, 229, 0.1);
+    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: 'Uni Neue';
+    cursor: pointer;
+}
+
+.link-social::before {
+    position: absolute;
+    content: '';
+    display: block;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    background-repeat: no-repeat;
+}
+
+.link-social-telegram::before {
+    background-image: url(../img/1-header/telegram.svg);
+}
+
+.link-social-play::before {
+    background-image: url(../img/1-header/shop.svg);
 }
 
 /* header */
+
+/* friends */
+.friends__card-element {
+    background: rgba(229, 229, 229, 0.1);
+    border: 1px solid #00D1FF;
+    box-shadow: 0px 3px 8px rgb(0 209 255 / 85%), inset 0px 1px 6px #00d1ff, inset 0px 5px 20px rgb(0 209 255 / 20%);
+    border-radius: 20px;
+    max-width: 375px;
+    width: 100%;
+    padding: 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    min-height: 230px;
+    margin: 0 10px 50px;
+
+}
+
+.friends__card-element h3 {
+    font-family: 'Uni Neue';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.friends__description {
+    max-width: 335px;
+    font-family: 'Uni Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+/* friends */
 
 /* auto-scroll */
 .slider {
@@ -239,41 +463,10 @@ button:focus {
 /* auto-scroll */
 
 /* bull-terrier */
+/* .desk-general .desk-general-text  .paw-l  paw-r*/
+
 .bull-terrier {
     margin: 175px 0 160px;
-}
-
-.desk-general {
-    background: rgba(229, 229, 229, 0.1);
-    box-shadow: inset 4px 0px 0px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.15),
-        inset 0px 0px 60px rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(60px);
-    border-radius: 20px;
-    width: 100%;
-    max-width: 1055px;
-    padding: 95px 0;
-}
-
-.desk-general-text {
-    font-family: "Uni Neue";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 49px;
-    color: #ffffff;
-    max-width: 900px;
-}
-
-.paw-l {
-    left: -6px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.paw-r {
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 .paw-block {
@@ -295,153 +488,252 @@ button:focus {
 
 /* bull-terrier */
 
-/* bagel */
-.bagel-title {
-    font-family: "Montserrat", sans-serif;
+/* buy */
+.buy {
+    margin-bottom: 165px;
+}
+
+.btn-buy {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    padding: 18px 0;
+    width: 100%;
+    width: 310px;
+    background: rgba(229, 229, 229, 0.1);
+    box-shadow: inset 4px 0px 0px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(60px);
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.buy-btn {
+    margin-top: 85px;
+}
+
+/* buy */
+
+/* bonus */
+.bonus {
+    margin-bottom: 165px;
+}
+
+.bonus__title {
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 55px;
     line-height: 67px;
-    color: #ffffff;
-    margin-bottom: 105px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
-.bagel {
-    margin-bottom: 230px;
-}
-
-.bagel-description-text {
-    font-family: "Uni Neue";
-    font-style: normal;
+.bonus__subtitle {
     font-weight: 500;
     font-size: 36px;
     line-height: 49px;
-    color: #ffffff;
-    max-width: 870px;
+    margin-bottom: 95px;
+    text-align: center;
 }
 
-.bagel-description {
-    background: rgba(229, 229, 229, 0.1);
-    box-shadow: inset 4px 0px 0px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.15),
-        inset 0px 0px 60px rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(60px);
-    border-radius: 20px;
-    padding: 65px 50px 65px 0;
-    width: 100%;
-    max-width: 1510px;
-    margin-bottom: 135px;
+.bonus__item img {
+    max-width: 400px;
+    border-radius: 10px;
 }
 
-.bagel-description img {
-    left: -82px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.btn-paw {
-    font-family: "Uni Neue";
-    font-style: normal;
+.bonus__item--description {
     font-weight: 500;
     font-size: 30px;
     line-height: 41px;
-    color: #ffffff;
-    padding: 15px 0;
-    width: 100%;
-    max-width: 312px;
+    text-align: center;
+}
+
+.bonus__step {
+    transform: translateY(-45px);
+}
+
+/* bonus */
+
+/* map */
+.map {
+    background-image: url(../img/8-map/bacground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 230px;
+}
+
+.map__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 67px;
+}
+
+.pam__plate {
     background: rgba(229, 229, 229, 0.1);
-    box-shadow: inset 4px 0px 0px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.15),
-        inset 0px 0px 60px rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(60px);
     border-radius: 20px;
+    width: 475px;
+    padding: 35px 0 40px;
+    text-align: center;
+    margin-bottom: 55px;
+    border: 2px solid #7DE5FF;
+    box-shadow: 0px 4px 4px rgb(125 229 255 / 50%), inset 4px 0px 3px 4px rgb(0 0 0 / 25%), inset 0px 4px 4px rgb(255 255 255 / 15%), inset 0px 0px 60px rgb(255 255 255 / 5%);
+}
+
+.pam__plate p {
+    font-family: 'Uni Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.pam__plate--title {
+    font-family: 'Uni Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    color: #FFE600;
+    margin-bottom: 22px;
+}
+
+.pam__plate--title-green {
+    color: #00FF47 !important;
+}
+
+.map__element ul li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 35px;
+    padding-left: 95px;
     position: relative;
 }
 
-.btn-paw::before {
-    position: absolute;
-    right: -80px;
-    top: -10px;
-    content: "";
+.map__element ul li::before {
+    content: '';
     display: table;
-    width: 86px;
-    height: 75px;
-    background-image: url(../img/4-bagel/bagel-decor-btn.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 61px;
+    height: 46px;
+    background-image: url(../img/8-map/m-step-0.png);
 }
 
-/* bagel */
-
-/* collection */
-.collection {
-    padding-bottom: 160px;
+.map__element ul .m-step-g::before {
+    background-image: url(../img/8-map/m-step-g.png);
 }
 
-.collection-img {
+.map-frpoup {
+    right: 0;
+    bottom: -165px;
+}
+
+/* map */
+
+/* team */
+.team {
     margin-bottom: 160px;
 }
 
-.collection-text {
-    font-family: "Uni Neue Book";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 49px;
-    color: #ffffff;
-    max-width: 855px;
-}
-
-.collection-info {
-    margin-bottom: 234px;
-}
-
-/* collection */
-
-/* modal */
-.modal-content {
-    background: #1c1c1c;
-    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(60px);
-    border-radius: 20px;
-    padding: 105px 70px 60px;
-}
-
-.modal-header {
-    border-bottom: none !important;
+.team__card {
     background: rgba(229, 229, 229, 0.1);
     box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(60px);
     border-radius: 20px;
-    padding: 0 !important;
+    padding: 22px 14px 18px;
 }
 
-.modal-dialog {
-    max-width: 1470px;
-}
-
-.btn-close {
-    background-image: url(../img/6-modal/close.png);
-    background-size: 53px;
-    width: 53px;
-    height: 53px;
-    padding: 0 !important;
-    margin-right: 80px !important;
-    margin-top: 35px !important;
-}
-
-.modal-img-block {
-    margin-bottom: 75px;
-}
-
-.modal-description {
-    max-width: 1035px;
-    font-family: "Uni Neue";
+.team__card--description {
+    font-family: 'Uni Neue';
     font-style: normal;
     font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+}
+
+.team__card--description span {
+    font-family: 'Uni Neue Book';
+    font-weight: 400;
     font-size: 30px;
     line-height: 41px;
-    color: #ffffff;
 }
 
-.modal-description-block {
-    padding: 0 140px 100px;
+/* team */
+
+/* economy */
+.economy {
+    margin-bottom: 171px;
+    background-image: url(../img/7-economy/e-fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-/* modal */
+.economy__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 67px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.economy__diagram--text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.economy__diagram--text-1 {
+    top: 35px;
+    left: 10%;
+}
+
+.economy__diagram--text-2 {
+    top: 35px;
+    right: 10%;
+    text-align: center;
+}
+
+.economy__diagram--text-3 {
+    left: 10%;
+    bottom: 70px;
+}
+
+.economy__diagram--text-4 {
+    right: 6%;
+    bottom: 70px;
+}
+
+/* economy */
+
+/* footer */
+.diamond__title {
+    font-family: 'Uni Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 101px;
+    color: #00D1FF;
+    text-shadow: 0px 0px 3.5px #FFFFFF;
+}
+
+.footer__link {
+    width: 350px !important;
+}
+
+/* footer */

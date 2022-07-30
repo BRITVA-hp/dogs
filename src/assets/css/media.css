@@ -1,20 +1,23 @@
 @media (max-width: 1600px) {
 
     /* header */
-    .header {
+    /* .header {
         background-size: 1440px auto;
-    }
+    } */
 
     .header-description {
         font-size: 40px;
         line-height: 60px;
         max-width: 525px;
-        margin-top: 190px;
     }
 
-    .set-pic {
+    /* .set-pic {
         max-width: 750px;
-    }
+    } */
+
+    /* .header-description__text {
+        max-width: 600px;
+    } */
 
     /* header */
     /* bull-terrier */
@@ -35,42 +38,132 @@
     }
 
     /* bull-terrier */
-    /* bagel */
-    .bagel-description img {
-        max-width: 500px;
+
+    /* team */
+    .team__card img {
+        max-width: 280px;
     }
 
-    .bagel-description {
-        padding: 55px 50px 55px 0;
-        max-width: 1299px;
+    /* .team__list:last-child .team__card {
+        margin-right: 50px !important;
     }
 
-    .bagel-description-text {
-        font-size: 32px;
-        line-height: 44px;
-        max-width: 790px;
+    .team__list:last-child .team__card:last-child {
+        margin-right: 0 !important;
+    } */
+
+    .team__card--description span {
+        font-family: 'Uni Neue Book';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
     }
 
-    /* bagel */
+    /* team */
+
+    /* map */
+    .pam__plate {
+        width: 400px;
+    }
+
+    .map-frpoup {
+        max-width: 530px;
+        right: 0;
+        bottom: -40px;
+    }
+
+    .pam__plate p {
+        font-family: 'Uni Neue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    .map__element ul li {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 35px;
+        padding-left: 95px;
+        position: relative;
+    }
+
+    /* map */
 }
 
 @media (max-width: 1440px) {
 
     /* header */
-    .header {
+    /* .header {
         background-size: 1200px auto;
+    } */
+
+    .list-element {
+        margin-right: 15px;
+    }
+
+    .list-element a {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .header-block {
+        margin-top: 70px;
+    }
+
+    .set-pic {
+        max-width: 500px;
     }
 
     .header-description {
         font-size: 37px;
         line-height: 50px;
-        max-width: 465px;
-        margin-top: 145px;
+        /* margin-top: 145px; */
+        margin-top: 30px;
+        /* margin-bottom: 26px; */
     }
 
-    .set-pic {
-        max-width: 635px;
+    .header-description__text {
+        /* max-width: 510px; */
+        font-size: 16px;
+        line-height: 21px;
+        /* margin-bottom: 20px; */
     }
+
+    .link-social {
+        padding: 15px 15px 15px 0;
+        max-width: 250px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .link-social::before {
+        width: 30px;
+        height: 30px;
+        background-size: 30px;
+    }
+
+    .header-timer {
+        margin-bottom: 37px;
+    }
+
+    /* .title-block {
+        margin-top: 40px;
+    } */
+
+    .header-title {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    /* .set-pic {
+        max-width: 635px;
+    } */
 
     /* header */
     /* bull-terrier */
@@ -107,57 +200,185 @@
     }
 
     /* bull-terrier */
-    /* bagel */
-    .bagel-description img {
-        max-width: 440px;
+
+    /* bonus */
+    .bonus__item img {
+        max-width: 270px;
     }
 
-    .bagel-description {
-        padding: 45px 35px 40px 0;
-        max-width: 1100px;
-        margin-bottom: 80px;
+    .bonus__item--description {
+        font-size: 18px;
+        line-height: 23px;
     }
 
-    .bagel-description-text {
-        font-size: 28px;
-        line-height: 36px;
-        max-width: 690px;
+    .bonus__step {
+        transform: translateY(-30px);
+        max-width: 70px;
     }
 
-    /* bagel */
-    /* modal */
-    .modal-img-elements {
+    /* bonus */
+    /* team */
+    /* .team__list {
+        justify-content: space-between !important;
+    } */
+
+    .team__card img {
+        max-width: 220px;
+    }
+
+    /* .team__list:last-child .team__card {
+        margin-right: 0px !important;
+    } */
+
+    .team__card--description {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .team__card--description span {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    /* team */
+
+    /* economy */
+    .economy__diagram--text-1 {
+        top: 35px;
+        left: 0%;
+    }
+
+    .economy__diagram--text-2 {
+        top: 35px;
+        right: 0%;
+    }
+
+    .economy__diagram--text-3 {
+        left: 0%;
+        bottom: 70px;
+    }
+
+    .economy__diagram--text-4 {
+        right: 9%;
+        bottom: 20px;
+        max-width: 180px;
+        text-align: center;
+    }
+
+    /* economy */
+    /* map */
+    .pam__plate {
+        width: 310px;
+    }
+
+    .pam__plate p {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    .pam__plate--title {
+        font-size: 23px;
+        line-height: 30px;
+        margin-bottom: 14px;
+    }
+
+
+    .map-frpoup {
+        right: 0;
+        bottom: -8px;
+        max-width: 450px;
+    }
+
+    .map__element ul li {
+        font-size: 18px;
+        line-height: 24px;
         max-width: 300px;
+        padding-left: 75px;
     }
 
-    .modal-general-img {
-        max-width: 330px;
+    .map {
+        padding-bottom: 150px;
     }
 
-    .modal-description-block {
-        padding: 0 65px 100px;
+    /* map */
+
+    /* footer */
+    .footer__link {
+        width: 2 50px !important;
     }
 
-    /* modal */
+    /* footer */
 }
 
 @media (max-width: 1200px) {
 
     /* header */
+    .list-element a {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
     .bull-terrier {
         margin: 100px 0;
     }
 
-    .header {
+    .header-block {
+        margin-top: 35px;
+    }
+
+    /* .header {
         background-size: 991px auto;
+    } */
+
+    .title-block {
+        margin-top: 30px;
+    }
+
+    .title-block img {
+        max-width: 50px;
+    }
+
+    .header-title {
+        font-size: 40px;
+        line-height: 50px;
     }
 
     .header-description {
-        margin-top: 90px;
+        font-size: 30px;
+        line-height: 35px;
+        /* max-width: 340px; */
+        margin-top: 20px;
+    }
+
+    .header-description__text {
+        /* max-width: 435px; */
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header-timer {
+        margin-bottom: 15px;
+    }
+
+    .timer-number {
+        font-size: 40px;
+        line-height: 46px;
+        height: 55px;
+        width: 85px;
+    }
+
+    .link-social {
+        padding: 15px 10px 15px 0;
+        font-size: 14px;
+    }
+
+    .link-social::before {
+        left: 5px;
     }
 
     .set-pic {
-        max-width: 500px;
+        max-width: 420px;
     }
 
     /* header */
@@ -195,101 +416,122 @@
     }
 
     /* bull-terrier */
-    /* bagel */
-    .bagel {
-        margin-bottom: 180px;
+
+    /* team */
+    .team__card img {
+        max-width: 180px;
     }
 
-    .bagel-description img {
-        max-width: 350px;
+    .team__card--description span {
+        font-size: 14px;
+        line-height: 20px;
     }
 
-    .bagel-description-text {
-        font-size: 24px;
-        line-height: 29px;
-        max-width: 566px;
+    /* team */
+
+    /* economy */
+    .economy__title {
+        font-size: 30px;
+        line-height: 39px;
     }
 
-    .bagel-description {
-        padding: 30px 25px 30px 0;
-        max-width: 890px;
-        margin-bottom: 50px;
+    .economy__diagram img {
+        max-width: 400px;
     }
 
-    .btn-paw {
-        font-size: 25px;
-        line-height: 30px;
-        padding: 10px 20px;
+    .economy__diagram--text-1 {
+        top: 35px;
+        left: 12%;
     }
 
-    .btn-paw::before {
-        right: -55px;
-        top: -5px;
-        width: 60px;
-        height: 60px;
-        background-size: 70px;
+    .economy__diagram--text-2 {
+        top: 35px;
+        right: 12%;
     }
 
-    /* bagel */
-    /* collection */
-    .collection {
-        padding-bottom: 100px;
+    .economy__diagram--text-3 {
+        left: 13%;
+        bottom: 35px;
     }
 
-    .collection-img {
-        margin-bottom: 100px;
+    .economy__diagram--text-4 {
+        right: 10%;
+        bottom: 35px;
+        max-width: 100%;
     }
 
-    .collection-info {
-        margin-bottom: 180px;
+    .economy__diagram--text {
+        font-size: 20px;
+        line-height: 25px;
     }
 
-    /* collection */
+    /* economy */
 
-    /* modal */
-    .modal-description {
-        font-size: 26px;
-        line-height: 35px;
+    /* map */
+    .map-frpoup {
+        right: 0;
+        bottom: -135px;
+        max-width: 430px;
     }
 
-    .modal-img-elements {
-        max-width: 250px;
-    }
+    /* map */
 
-    .modal-general-img {
-        max-width: 280px;
-    }
-
-    /* modal */
 }
 
 @media (max-width: 991px) {
 
     /* header */
-    .header-block {
-        padding-bottom: 45px;
+    .wrapper-list {
+        position: absolute;
+        right: -15px;
+        top: -100%;
+        padding: 25px 0 0 25px;
+        min-height: 490px;
+        background-color: #1C1C1C;
+        width: 270px;
+        display: none;
+        z-index: 1;
     }
+
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .list-element {
+        margin-right: 0px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .list-element:last-child {
+        margin-bottom: 0;
+    }
+
+    /* .header-block {
+        padding-bottom: 45px;
+    } */
 
     .header {
-        background-size: 767px auto;
-        margin-bottom: 45px;
+        margin-bottom: 90px;
+        background-size: 1055px;
     }
 
-    .header-description {
+    /* .header-description {
         font-size: 27px;
         line-height: 35px;
         max-width: 336px;
         margin-top: 145px;
-    }
+    } */
 
     .set-pic {
-        max-width: 380px;
+        max-width: 350px;
     }
 
     .select__header {
         border-radius: 10px;
         width: 77px;
-        margin: 0 0 7px;
+        /* margin: 0 0 7px; */
     }
 
     .select__current {
@@ -323,7 +565,78 @@
         border-radius: 10px;
     }
 
+    .title-block {
+        margin-top: 15px;
+    }
+
+    .header-title {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .title-block img {
+        max-width: 33px;
+    }
+
+    .header-description {
+        font-size: 22px;
+        line-height: 30px;
+        /* max-width: 250px; */
+        /* margin-top: 24px; */
+        /* margin-bottom: 10px; */
+    }
+
+    .header-description__text {
+        max-width: 360px;
+        font-size: 13px;
+        line-height: 19px;
+        margin-bottom: 25px;
+    }
+
+    .timer-number {
+        font-size: 35px;
+        line-height: 49px;
+        height: 50px;
+        width: 75px;
+    }
+
+    .timer-element__text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .timer-text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .link-social {
+        padding: 17px 13px 17px 0;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .link-social::before {
+        width: 36px;
+        height: 36px;
+        background-size: 36px;
+    }
+
     /* header */
+
+    /* friends */
+    .friends__card-element {
+        max-width: 330px;
+        margin: 0 10px 30px;
+    }
+
+    .friends__description {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    /* friends */
+
     /* bull-terrier */
     .bull-terrier {
         margin: 80px 0;
@@ -362,82 +675,105 @@
     }
 
     /* bull-terrier */
-    /* bagel */
-    .bagel {
-        margin-bottom: 150px;
+
+    /* bonus */
+    .bonus__item img {
+        max-width: 180px;
     }
 
-    .bagel-title {
-        font-size: 40px;
-        line-height: 50px;
-        margin-bottom: 70px;
+    .bonus__item--description {
+        font-size: 16px;
+        line-height: 22px;
     }
 
-    .bagel-description img {
-        max-width: 350px;
+    .bonus__title {
+        font-size: 30px;
+        line-height: 39px;
     }
 
-    .bagel-description {
-        padding: 20px 10px 20px 0;
-        max-width: 655px;
-    }
-
-    .bagel-description-text {
+    .bonus__subtitle {
         font-size: 20px;
-        line-height: 24px;
-        max-width: 364px;
+        line-height: 26px;
     }
 
-    /* bagel */
-    /* collection */
-    .collection {
-        padding-bottom: 70px;
+    .bonus {
+        margin-bottom: 110px;
     }
 
-    .collection-img {
-        margin-bottom: 70px;
+    /* bonus */
+
+    /* team */
+    .team__card img {
+        max-width: 125px;
     }
 
-    .collection-info {
-        margin-bottom: 130px;
+    .team__card--description {
+        font-size: 20px;
+        line-height: 25px;
     }
 
-    /* collection */
-    /* modal */
-    .modal-dialog {
-        max-width: 767px;
+    .team__card--description span {
+        font-size: 10px;
+        line-height: 15px;
     }
 
-    .modal-content {
-        padding: 20px 12px;
+    .team__card {
+        padding: 15px 15px 12px;
     }
 
-    .modal-general-img {
-        max-width: 230px;
+    /* team */
+
+    /* economy */
+
+    .economy__diagram--text-1 {
+        top: 35px;
+        left: 0%;
     }
 
-    .btn-close {
-        background-size: 35px;
-        width: 35px;
-        height: 35px;
-        margin-right: 15px !important;
-        margin-top: 15px !important;
+    .economy__diagram--text-3 {
+        left: 1%;
+        bottom: 35px;
     }
 
-    .modal-img-block {
-        margin-bottom: 20px;
+    .economy__diagram--text-2 {
+        top: 35px;
+        right: 0%;
     }
 
-    .modal-description {
-        font-size: 21px;
-        line-height: 27px;
+    .economy__diagram--text-4 {
+        right: 4%;
+        bottom: 10px;
+        max-width: 105px;
     }
 
-    .modal-description-block {
-        padding: 0 7px 30px;
+    /* economy */
+    /* map */
+    .pam__plate {
+        width: 210px;
     }
 
-    /* modal */
+    .pam__plate p {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+
+    .map__element ul li {
+        font-size: 13px;
+        line-height: 17px;
+        max-width: 210px;
+        padding-left: 45px;
+    }
+
+    .map__element ul li::before {
+        width: 37px;
+        height: 30px;
+        background-size: 37px 30px;
+        background-repeat: no-repeat;
+    }
+
+    /* map */
+
 }
 
 @media (max-width: 767px) {
@@ -447,18 +783,38 @@
         background-size: 100%;
     }
 
-    .header-description {
+    /* .header-description {
         font-size: 20px;
         line-height: 30px;
         max-width: 340px;
         margin-top: 100px;
-    }
+    } */
 
-    .set-pic {
+    /* .set-pic {
         max-width: 293px;
-    }
+    } */
 
     /* header */
+
+    /* friends */
+    .friends__card-element {
+        max-width: 280px;
+        margin: 0 auto 20px;
+        padding: 20px 5px 0;
+        min-height: 155px;
+    }
+
+    .friends__card-element h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .friends__description {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    /* friends */
 
     /* auto-scroll */
     .slider__item {
@@ -468,9 +824,6 @@
     /* auto-scroll */
 
     /* bull-terrier */
-    .bull-terrier {
-        margin: 50px 0;
-    }
 
     .paw-l {
         width: 130px;
@@ -505,135 +858,304 @@
     }
 
     /* bull-terrier */
-    /* bagel */
-    .bagel {
-        margin-bottom: 100px;
+    /* buy */
+    .buy {
+        margin-bottom: 80px;
     }
 
-    .bagel-title {
-        font-size: 30px;
-        line-height: 40px;
-        margin-bottom: 60px;
+    .buy__main {
+        max-width: 280px;
+        margin: 0 auto;
     }
 
-    .bagel-description-text {
+    .btn-buy {
+        position: relative;
+        font-size: 20px;
+        line-height: 27px;
+        padding: 14px 0;
+        width: 280px;
+        background: rgba(229, 229, 229, 0.1);
+        box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.15), inset 0px 0px 60px rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(60px);
+        border-radius: 10px;
+    }
+
+    .btn-buy::before {
+        position: absolute;
+        content: '';
+        top: 50%;
+        transform: translateY(-50%);
+        width: 38px;
+        height: 33px;
+        background-size: 38px 33px;
+        left: 9px;
+        background-image: url(../img/4-buy/step-left.png);
+    }
+
+    .btn-buy::after {
+        position: absolute;
+        content: '';
+        top: 50%;
+        transform: translateY(-50%);
+        width: 38px;
+        height: 33px;
+        background-size: 38px 33px;
+        right: 9px;
+        background-image: url(../img/4-buy/step-right.png);
+    }
+
+    .buy-btn {
+        margin-top: 25px;
+    }
+
+    /* buy */
+    /* bonus */
+    .bonus__title {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .bonus__subtitle {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 35px;
+    }
+
+    .bonus {
+        margin-bottom: 80px;
+    }
+
+    .bonus__item--description {
         font-size: 16px;
         line-height: 22px;
-        max-width: 364px;
     }
 
-    .bagel-description {
-        padding: 18px 14px;
-        background: rgba(229, 229, 229, 0.1);
-        box-shadow: inset 1px 0px 0px 1px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.15),
-            inset 0px 0px 60px rgba(255, 255, 255, 0.05);
-        backdrop-filter: blur(60px);
-        max-width: 520px;
-        margin-bottom: 20px;
+    .bonus__item img {
+        max-width: 240px;
     }
 
-    .btn-paw {
-        background: rgba(229, 229, 229, 0.1);
-        box-shadow: inset 1px 0px 0px 1px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.15),
-            inset 0px 0px 60px rgba(255, 255, 255, 0.05);
-        backdrop-filter: blur(60px);
-        font-size: 15px;
+    /* bonus */
+
+    /* team */
+    .team {
+        margin-bottom: 90px;
+    }
+
+    .team__list {
+        justify-content: center !important;
+    }
+
+    /* .team__list:first-child {
+        margin-bottom: 0 !important;
+    } */
+
+    .team__card {
+        margin: 0 15px 30px !important;
+    }
+
+    .team__card img {
+        max-width: 180px;
+    }
+
+    .team__card--description {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .team__card--description span {
+        font-size: 14px;
         line-height: 20px;
-        padding: 14px 0;
-        width: 100%;
-        max-width: 280px;
     }
 
-    .btn-paw::before {
-        right: 10px;
-        top: 8px;
-        width: 35px;
-        height: 35px;
-        background-size: 38px;
-        background-repeat: no-repeat;
+    /* .team__list:last-child .team__card {
+        margin-right: 15px !important;
     }
 
-    .btn-paw::after {
-        background-image: url(../img/4-bagel/bagel-decor-btn.png);
-        position: absolute;
-        content: "";
-        display: table;
-        left: 10px;
-        top: 8px;
-        width: 35px;
-        height: 35px;
-        background-size: 38px;
-        background-repeat: no-repeat;
+    .team__list:last-child .team__card:last-child {
+        margin-right: 15px !important;
+    } */
+
+    /* team */
+
+    /* economy */
+    .economy__title {
+        font-size: 22px;
+        line-height: 27px;
     }
 
-    /* bagel */
-    /* collection */
-    .collection {
-        padding-bottom: 40px;
+    .economy {
+        margin-bottom: 80px;
+        background-image: url(../img/7-economy/e-fon-mob.png);
     }
 
-    .collection-img {
-        margin-bottom: 50px;
+    .economy__diagram img {
+        max-width: 255px;
     }
 
-    .collection-text {
-        font-size: 15px;
-        line-height: 20px;
-        max-width: 450px;
+    .economy__diagram--text {
+        font-size: 14px;
+        line-height: 19px;
     }
 
-    .collection-info {
-        margin-bottom: 50px;
-    }
-
-    /* collection */
-    /* modal */
-    .modal-dialog {
+    .economy .container {
         max-width: 575px;
     }
 
-    .modal-general-img {
-        max-width: 160px;
+    .economy__diagram--text-1 {
+        top: 10px;
+        left: 2%;
     }
 
-    .modal-description {
-        font-size: 15px;
-        line-height: 20px;
+    .economy__diagram--text-2 {
+        top: 10px;
+        right: 6%;
     }
 
-    .btn-close {
-        background-size: 23px;
-        width: 23px;
-        height: 23px;
-        margin-right: 15px !important;
-        margin-top: 15px !important;
+    .economy__diagram--text-3 {
+        left: 3%;
+        bottom: 30px;
     }
 
-    /* modal */
+    .economy__diagram--text-4 {
+        right: 6%;
+        bottom: 10px;
+        max-width: 105px;
+    }
+
+    /* economy */
+
+    /* map */
+    .map {
+        margin-bottom: 80px;
+        padding-bottom: 0;
+    }
+
+    /* .map .container {
+        max-width: 575px;
+    } */
+
+    .pam__plate {
+        width: 280px;
+        padding: 35px 0;
+        margin: 0 auto 50px;
+        background: rgba(229, 229, 229, 0.1);
+        box-shadow: 0px 4px 5px rgb(0 209 255 / 85%), inset 0px 3px 7px #00d1ff, inset 0px 0px 20px rgb(0 209 255 / 20%);
+        border: 2px solid rgba(125, 229, 255, 65%);
+        border-radius: 20px;
+    }
+
+    .pam__plate p {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 900;
+    }
+
+    .map__element ul li {
+        font-size: 16px;
+        line-height: 21px;
+        max-width: 280px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .map__element ul li::before {
+        width: 34px;
+        height: 26px;
+        background-size: 34px 26px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -25px;
+    }
+
+    .mobile-dog {
+        max-width: 280px;
+    }
+
+    /* map */
+
+    /* footer */
+    .diamond__title {
+        font-size: 36px;
+        line-height: 49px;
+    }
+
+    .footer__diamind img {
+        width: 46px;
+    }
+
+    /* footer */
 }
 
 @media (max-width: 575px) {
 
     /* header */
     .header {
-        margin-bottom: 40px;
+        margin-bottom: 80px;
+        background-image: url(../img/1-header/h-fon-mob.png);
+    }
+
+    .select__body {
+        top: 35px;
+    }
+
+    .header-title {
+        font-size: 30px;
+        line-height: 41px;
     }
 
     .header-block {
         padding-bottom: 0;
     }
 
-    .header-description {
-        font-size: 22px;
-        max-width: 280px;
-        margin-top: 15px;
+    .header-information {
+        align-items: center;
+        text-align: center;
     }
 
-    .select-container {
-        top: -355px;
-        right: 0;
-        position: absolute;
+    .link-social {
+        width: 280px;
+        max-width: 280px;
+        padding: 17px 17px 17px 0;
+        border-radius: 10px;
     }
+
+    .header-description {
+        font-size: 26px;
+        line-height: 35px;
+        margin-top: 16px;
+    }
+
+    .link-social::before {
+        left: 15px;
+    }
+
+    .header-description__text {
+        /* margin-top: 27px; */
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+
+    .set-pic__mob {
+        transform: translateY(30px);
+    }
+
+    .timer-number {
+        font-size: 30px;
+        line-height: 41px;
+        height: 40px;
+        width: 60px;
+        border-radius: 10px;
+    }
+
+    /* .select-container {
+        margin-top: 22px;
+    } */
+
+    /* .title-block {
+        margin-top: 40px;
+    } */
 
     .header-information {
         position: relative;
@@ -641,9 +1163,15 @@
 
     /* header */
     /* bull-terrier */
-    .paw-block {
-        margin-top: 15px;
-    }
+    /* .bull-terrier{
+        background-image: url(../img/3-bull-terrier/bull-terrier-fon-mob.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    } */
+    /* .paw-block {
+        background-image: none;
+    } */
 
     .bull-terrier .container {
         padding: 0;
@@ -658,54 +1186,76 @@
         font-weight: 500;
         font-size: 15px;
         line-height: 130%;
-        padding: 0 10px;
+        padding: 0 20px;
     }
 
     /* bull-terrier */
-    /* bagel */
-    .bagel .container {
-        padding: 0;
+
+    /* economy */
+    .economy {
+        margin-bottom: 95px;
     }
 
-    .bagel {
-        margin-bottom: 50px;
+    .economy__diagram--text {
+        font-size: 13px;
     }
 
-    .bagel-title {
-        font-size: 22px;
-        line-height: 27px;
-        margin-bottom: 20px;
+    .economy .container {
+        max-width: 425px;
     }
 
-    .bagel-description {
-        max-width: 300px;
+    .economy__diagram--text-1 {
+        top: -25px;
+        left: 0%;
     }
 
-    .paw-text-click {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .economy__diagram--text-4 {
+        left: auto;
+        right: 0;
+        top: -25px;
+        bottom: auto;
+        max-width: 100%;
     }
 
-    /* bagel */
+    .economy__diagram--text-3 {
+        left: 0;
+        top: auto;
+        bottom: -20px;
+    }
+
+    .economy__diagram--text-2 {
+        top: auto;
+        bottom: -40px;
+        right: 0%;
+        text-align: end;
+    }
+
+    /* economy */
+    /* map */
+    .map {
+        background-position-y: -450px;
+        background-image: url(../img/8-map/bacground-mob.png);
+    }
+
+    /* map */
 }
 
 @media (max-width: 375px) {
 
     /* header */
-    .header {
+    /* .header {
         background-image: url(../img/1-header/h-fon-mob.png);
         background-size: 100%;
-        background-position: center;
+        background-position-y: 60px;
         background-repeat: no-repeat;
-    }
+    } */
 
     /* header */
     /* bull-terrier */
     .paw-block {
         background-image: url(../img/3-bull-terrier/bull-terrier-fon-mob.png);
-        background-size: 100%;
-        background-position: top;
+        background-size: 375px;
+        background-position-y: -700px;
         background-repeat: no-repeat;
     }
 
